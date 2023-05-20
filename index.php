@@ -20,48 +20,13 @@
 </head>
 <body>
     <div id="fullpage">
-    <nav class="menu">
-        <div>
-            <img src="asset/images/logo.png" alt="">
-        </div>
-       <div>
-        <ul id="menu2">
-            <li><a href="#">Home</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Pricing</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-       </div>
-      <div class="main">
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
-      </div>
-    </nav>
+    <?php
+    include("include/nav.php");
+    ?>
 
-    <section class="mb-5">
-        <div class="mainbody">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center mt-5">
-                        <h2>BUILDING WEBSITES
-                        <br> THAT YOU CAN TRUST</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <p class="main-para">In order to establish successful organizations, we at Cheap Website Nigeria are dedicated <br> to the idea that excellent branding is the cornerstone of consumer trust.</p>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <div class="button">
-                                    <button class="learn-btn">Learn more</button><button class="price-btn">Pricing</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   <?php
+    include("include/body.php")
+   ?>
 
 
     <!-- EXPLORE PAGE -->
@@ -238,7 +203,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center see-btn mt-5 mb-5">
-                    <a href="portfolio.html"><button>See more</button></a>
+                    <a href="portfolio.php"><button>See more</button></a>
                 </div>
             </div>
         </div>
@@ -330,60 +295,9 @@
         </div>
     </section>
 
-    <footer class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    <h5 class="mb-3 mt-5">Services</h5>
-                    <p>Website Design</p>
-                    <p>Website Development</p>
-                    <p>Website Maintenance</p>
-                    <p>E-commerce Solutions</p>
-                    <p>Mobile App Development</p>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-2">
-                    <h5 class="mb-3 mt-5">Explore</h5>
-                    <a href="">Portfolio</a><br>
-                    <a href="">Pricing</a><br>
-                    <a href>Services</a>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-2">
-                    <h5 class="mb-3 mt-5">Community</h5>
-                    <p>Support</p>
-                    <p>Help</p>
-                </div>
-
-                <div class="col-md-1"></div>
-                <div class="col-md-2">
-                    <h5 class="mb-3 mt-5">Company</h5>
-                    <a href="">About us</a><br>
-                    <a href="">Portfolio</a><br>
-                    <a href="">Contact us</a>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-12 text-center">
-                        <img src="./asset/images/Cheap Website Logo White 1.png" alt="">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <p>© 2023 Cheap Website Nigeria. All rights reserved. </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                       <a href="" class="icon"> <i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="" class="icon"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="" class="icon"><i class="fa-brands fa-whatsapp"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+  <?php
+    include("include/footer.php");
+  ?>
 
     <script src="./fullpage.js"></script>
     <script src="js/scrpt.js"></script>

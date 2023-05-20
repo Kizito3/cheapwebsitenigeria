@@ -485,7 +485,7 @@ h2{
 } */
 
 .see-btn button{
-    height: 50px;
+height: 50px;
 width: 180px;
 left: 593px;
 top: 5018px;
@@ -578,6 +578,166 @@ font-size: 1rem;
     display: block;
     z-index: 9999;
 }
+
+
+
+
+/* portfolio stylingggggg */
+.portfolio-page h3{
+    font-size: 3rem;
+    color: #1E5631;
+}
+
+.portfolio-page h5{
+   font-weight: 400;
+   margin-top: 20px;
+}
+
+.portfolio-page h4{
+    font-weight: 700;
+}
+
+.portfolio-page p{
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+
+.portfolio-page a{
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+    background: #1E5631;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+}
+
+.portfolio-page a:hover{
+    background: transparent;
+    color: #1E5631;
+    border: 1px solid #1E5631;
+    transition: all .50s ease-in-out;
+}
+
+
+.border1{
+    border: 0.1px solid #1E5631;
+}
+
+.testimonial h4{
+    font-size: 2rem;
+    color: #1E5631;
+    /* border-top: 1px solid #1E5631; */
+}
+.testimonial span{
+    font-size: 2rem;
+    border-top: 5px solid #1E5631;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.carousel-container {
+    width: 100%;
+    padding: 30px;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  @media (max-width:768px){
+    .carousel-image{
+        margin-left: 5px;
+    }
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: #1E5631;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #F8F8F8;
+    border: 0.5px solid #1E5631;
+    /* z-index: 1001; */
+  }
+
+  .carousel-button i{
+    color: #1E5631;
+  }
+  
+  .carousel-prev {
+    left: 92%;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }
+
+  @media (max-width: 768px) {
+    
+    .carousel-prev {
+     left: 75%;
+     margin-right: 20px;
+    }
+    .carousel-next{
+        right: 0.1%;
+        margin-left: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for mobile devices */
+    .carousel-image {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 
 footer{
