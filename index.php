@@ -30,7 +30,7 @@
 
 
     <!-- EXPLORE PAGE -->
-    <section class="mt-5 mb-5">
+    <section class="mt-5 mb-5 pb-5">
         <div class="explore">
             <div class="container">
                 <div class="row">
@@ -49,41 +49,50 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card1">
-                            <h4>N25,000</h4>
-                            <h6>Starter</h6>
-                            <p class="">Unleash the power of <br> automation.</p>
+                            <h4 class="mb-4">N35,000</h4>
+                            <h6 class="mb-4">Starter</h6>
+                            <p class="mb-4">Unleash the power of <br> automation.</p>
                             <div class="icon">
-                                <i class="fa-solid fa-check"></i> <span>Multi-step Zaps</span> <br>
-                                <i class="fa-solid fa-check"></i> <span>Multi-step Zaps</span> <br>
-                                <i class="fa-solid fa-check"></i> <span>Multi-step Zaps</span>
+                                <i class="fa-solid fa-check text-center"></i> <span>Multi-step Zaps</span> <br>
+                                <i class="fa-solid fa-check text-center"></i> <span>Multi-step Zaps</span> <br>
+                                <i class="fa-solid fa-check text-center"></i> <span>Multi-step Zaps</span>
                             </div> 
-                            <!-- <div class="text-center mt-5 button"> -->
-                                <a href=""><button class="text-center choose-btn">Choose plan</button></a>
-                            <!-- </div>    -->
+                            <div class="text-center mt-5">
+                                <a href="contact.php"><button class=" choose-btn">Choose plan</button></a>
+                            </div>   
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="card2">
-                            <h4>N25,000 <span>Recommended</span></h4>
-                            <h6>Starter</h6>
-                            <p>Unleash the power of automation.</p>
+                            <h4 class="mb-4">N70,000 <span>Recommended</span></h4>
+                            <h6 class="mb-4">Company</h6>
+                            <p class="mb-4">Automation plus enterprise- <br> grade features.</p>
+                            <div class="icon3">
+                                <i class="fa-solid fa-check text-center"></i> <small>Multi-step Zaps</small> <br>
+                                <i class="fa-solid fa-check text-center"></i> <small>Multi-step Zaps</small> <br>
+                                <i class="fa-solid fa-check text-center"></i> <small>Multi-step Zaps</small><br>
+                                <i class="fa-solid fa-check"></i> <small>Multi-step Zaps</small> <br>
+                            </div>
+                            <div class="text-center mt-5">
+                                <a href="comntact.php"><button class=" choose-btn2">Choose plan</button></a>
+                            </div>   
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="card1">
-                            <h4>N25,000</h4>
-                            <h6>Starter</h6>
-                            <p>Unleash the power of <br> automation.</p>
+                            <h4 class="mb-4">N50,000</h4>
+                            <h6 class="mb-4">Starter</h6>
+                            <p class="mb-4">Unleash the power of <br> automation.</p>
                             <div class="icon">
                                 <i class="fa-solid fa-check"></i> <span>Multi-step Zaps</span> <br>
                                 <i class="fa-solid fa-check"></i> <span>Multi-step Zaps</span> <br>
                                 <i class="fa-solid fa-check"></i> <span>Multi-step Zaps</span>
                             </div>
-                            <!-- <div class="text-center mt-5 button"> -->
-                                <a href=""><button class="text-center choose-btn">Choose plan</button></a>
-                            <!-- </div> -->
+                            <div class="text-center mt-5">
+                                <a href="contact.php"><button class="choose-btn">Choose plan</button></a>
+                            </div>
                             
                         </div>
                     </div>
