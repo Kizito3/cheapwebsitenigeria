@@ -12,8 +12,8 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-2">
                     <h5 class="mb-3 mt-5">Explore</h5>
-                    <a href="">Portfolio</a><br>
-                    <a href="">Pricing</a><br>
+                    <p><a href="">Portfolio</a> </p>
+                    <p><a href="">Pricing</a></p>
                     <a href>Services</a>
                 </div>
                 <div class="col-md-1"></div>
@@ -24,13 +24,13 @@
                 </div>
 
                 <div class="col-md-1"></div>
-                <div class="col-md-2">
+                <div class="col-md-2 mb-5 link">
                     <h5 class="mb-3 mt-5">Company</h5>
-                    <a href="">About us</a><br>
-                    <a href="">Portfolio</a><br>
-                    <a href="">Contact us</a>
+                    <p><a href="" class="link">About us</a></p>
+                    <p><a href="" class="link">Portfolio</a></p>
+                    <p><a href="">Contact us</a></p>
                 </div>
-                <div class="row mb-3">
+                <div class="row mb-5">
                     <div class="col-md-12 text-center">
                         <img src="./asset/images/Cheap Website Logo White 1.png" alt="">
                     </div>
